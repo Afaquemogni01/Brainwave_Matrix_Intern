@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    min-width: 80vw;
+    flex-direction: column;
+  }
+  
+  .picsum-img-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+  
+  
+  
