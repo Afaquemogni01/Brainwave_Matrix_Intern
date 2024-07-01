@@ -1,18 +1,95 @@
-.container {
+
+
+
+.card {
+    position: relative;
+    max-width: 71rem;
+   
+    height: 25rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url('../../../../assets/carusel.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 80vh; 
-    min-width: 80vw;
+   
+}
+
+.card-img-overlay {
+    position: absolute;
+   
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
+    padding: 1rem;
+    display: flex;
     flex-direction: column;
-  }
-  
-  .picsum-img-wrapper img {
-    max-width: 100%;
-    height: auto;
-  }
-  
- 
-  
-  
-  
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+   
+}
+
+.card-title {
+    /* font-size: 2rem; */
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.card-text {
+    /* font-size: 1rem; */
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+small {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+
+/* 
+button */
+
+
+
+
+.text-body-secondary {
+    color: #6c757d;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: #570c0c9d;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.btn:hover {
+    background: #363434;
+    
+    transform: translate3d(2px);
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+

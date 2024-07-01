@@ -1,0 +1,44 @@
+.card {
+    max-width: 70rem; /* Max width of the card */
+    margin-top: 2rem; /* Center align horizontally */
+    margin-left: 5rem;
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure content does not overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    /* padding-left: 8rem; */
+  
+   
+}
+
+.custom-img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto; /* Ensure image aspect ratio is maintained */
+    object-fit: cover; /* Cover the entire container */
+    border-top-left-radius: 8px; /* Rounded top-left corner */
+    border-bottom-left-radius: 8px; /* Rounded bottom-left corner */
+}
+
+.card-body {
+    position: absolute;
+    padding:2rem; 
+    display: flex;
+    flex-direction: column;
+    
+ 
+    
+}
+
+
+.card-text {
+    font-size: 2rem; /* Font size for the card text */
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: lighter;
+   
+    
+}
+
+.text-body-secondary {
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem; /* Font size for secondary text */
+}
